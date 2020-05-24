@@ -179,6 +179,8 @@ body {
   margin-bottom: 168px;
 }
 .page-nav {
+  align-self: baseline;
+  -ms-flex-item-align: baseline;
   width: 1091px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,6 +190,8 @@ body {
   justify-content: space-between;
 }
 .site-logo {
+  align-self: baseline;
+  -ms-flex-item-align: baseline;
   font-size: 1.875rem;
   color: rgb(255, 255, 255);
   font-weight: 700;
@@ -208,6 +212,8 @@ body {
 }
 
 .site-navigation {
+  align-self: baseline;
+  -ms-flex-item-align: baseline;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,7 +261,12 @@ body {
 .site-navigation__item:focus .site-navigation__link {
   color: #fce38a;
 }
+.site-user-interaction {
+  display: flex;
+  align-self: baseline;
+}
 .site-user-interaction__ico {
+  padding-top: 5px;
   fill: rgb(255, 255, 255);
 }
 .site-user-interaction__button--hover {
@@ -629,7 +640,7 @@ body {
   color: #f38181;
 }
 
-.footer__form {
+.footer-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
