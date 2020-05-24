@@ -264,9 +264,10 @@ body {
 .site-user-interaction {
   display: flex;
   align-self: baseline;
+  align-self: baseline;
+  -ms-flex-item-align: baseline;
 }
 .site-user-interaction__ico {
-  padding-top: 5px;
   fill: rgb(255, 255, 255);
 }
 .site-user-interaction__button--hover {
