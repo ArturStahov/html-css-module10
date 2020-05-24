@@ -426,22 +426,22 @@ body {
   color: #999999;
 }
 .service-item__ico--photography_ico {
-  background-image: url("../img/ico/photography.png");
+  background-image: url("../img/svg/alarm-ico.svg");
 }
 .service-item__ico--design_ico {
-  background-image: url("../img/ico/design.png");
+  background-image: url("../img/svg/graph-ico.svg");
 }
 .service-item__ico--creativity_ico {
-  background-image: url("../img/ico/crteativ.png");
+  background-image: url("../img/svg/tw-ico.svg");
 }
 .service-item__ico--seo_ico {
-  background-image: url("../img/ico/seo.png");
+  background-image: url("../img/svg/book-ico.svg");
 }
 .service-item__ico--css_ico {
-  background-image: url("../img/ico/css.png");
+  background-image: url("../img/svg/home-ico.svg");
 }
 .service-item__ico--digital_ico {
-  background-image: url("../img/ico/digital.png");
+  background-image: url("../img/svg/digital-ico.svg");
 }
 
 .page-section-team-before-text::before {
@@ -580,14 +580,14 @@ body {
 }
 .card-teem-title {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
   line-height: 1.2;
 }
 
 .card-teem-description {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(153, 153, 153);
   font-style: italic;
@@ -624,6 +624,7 @@ body {
   color: rgb(51, 51, 51);
   line-height: 1.2;
 }
+
 .footer-copyright__link {
   color: #f38181;
 }
@@ -643,7 +644,7 @@ body {
 }
 
 .footer-form__input::-webkit-input-placeholder {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
   font-weight: 300;
@@ -651,9 +652,8 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-
 .footer-form__input::-moz-placeholder {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
   font-weight: 300;
@@ -661,9 +661,8 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-
 .footer-form__input:-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
   font-weight: 300;
@@ -671,9 +670,17 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-
 .footer-form__input::-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: var(--second__font);
+  color: rgb(204, 204, 204);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.6;
+  padding-left: 12px;
+}
+.footer-form__input::placeholder {
+  font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
   font-weight: 300;
@@ -682,15 +689,6 @@ body {
   padding-left: 12px;
 }
 
-.footer-form__input::placeholder {
-  font-size: 15px;
-  font-family: var(--second__font);
-  color: rgb(204, 204, 204);
-  font-weight: 300;
-  font-style: italic;
-  line-height: 1.6;
-  padding-left: 12px;
-}
 .footer-form__input:required:focus:valid:not(:placeholder-shown) {
   border-style: solid;
   border-width: 2px;
