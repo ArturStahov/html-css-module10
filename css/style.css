@@ -496,6 +496,12 @@ body {
   overflow: visible;
   opacity: 1;
 }
+.card-teem:hover .card-teem__overlay-container,
+.card-teem:focus .card-teem__overlay-container {
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
 
 .card-teem__overlay {
   width: 100%;
@@ -548,6 +554,12 @@ body {
 .card-teem__overlay-container {
   position: relative;
   margin-bottom: 28px;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
 }
 
 .card-teem-social-button-list {
