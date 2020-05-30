@@ -389,7 +389,7 @@ body {
   font-weight: 400;
   margin-bottom: 15px;
 }
-.page-section-services-before-text::before {
+.page-section-title--section-services-before-text::before {
   content: var(--section_services-before-text);
 }
 
@@ -456,7 +456,7 @@ body {
   background-image: url("../img/svg/digital-ico.svg");
 }
 
-.page-section-team-before-text::before {
+.page-section-title--section-team-before-text::before {
   content: var(--section_teem-before-text);
 }
 
@@ -468,7 +468,7 @@ body {
   margin-bottom: 90px;
 }
 
-.page-section-title__section-teem--mr {
+.page-section-title--section-teem-mr {
   margin-bottom: 40px;
 }
 
