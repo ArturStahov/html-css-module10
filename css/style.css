@@ -562,13 +562,13 @@ body {
   transition-property: all;
 }
 
-.card-teem-social-button-list {
+.social-button-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.card-teem-social-button__link {
+.social-button__link {
   background-color: #fce38a;
   display: block;
   width: 55px;
@@ -584,18 +584,18 @@ body {
   margin-right: 2px;
   padding-top: 15px;
 }
-.card-teem-social-button__link:hover,
-.card-teem-social-button__link:focus {
+.social-button__link:hover,
+.social-button__link:focus {
   background-color: #f38181;
 }
 
-.card-teem-social-button__ico {
+.social-button__ico {
   width: 26px;
   height: 22px;
   fill: #f38181;
 }
-.card-teem-social-button__link:hover .card-teem-social-button__ico--hover,
-.card-teem-social-button__link:focus .card-teem-social-button__ico--hover {
+.social-button__link:hover .social-button__ico--hover,
+.social-button__link:focus .social-button__ico--hover {
   fill: #ffffff;
 }
 
@@ -653,13 +653,13 @@ body {
   color: #f38181;
 }
 
-.footer-form {
+.form-submit-mail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-form__input {
+.form-submit-mail__input {
   width: 230px;
   height: 40px;
   border: #e5e5e5 solid 1px;
@@ -667,7 +667,7 @@ body {
   padding-left: 10px;
 }
 
-.footer-form__input::-webkit-input-placeholder {
+.form-submit-mail__input::-webkit-input-placeholder {
   font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
@@ -676,7 +676,7 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-.footer-form__input::-moz-placeholder {
+.form-submit-mail__input::-moz-placeholder {
   font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
@@ -685,7 +685,7 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-.footer-form__input:-ms-input-placeholder {
+.form-submit-mail__input:-ms-input-placeholder {
   font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
@@ -694,7 +694,7 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-.footer-form__input::-ms-input-placeholder {
+.form-submit-mail__input::-ms-input-placeholder {
   font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
@@ -703,7 +703,7 @@ body {
   line-height: 1.6;
   padding-left: 12px;
 }
-.footer-form__input::placeholder {
+.form-submit-mail__input::placeholder {
   font-size: 0.9375rem;
   font-family: var(--second__font);
   color: rgb(204, 204, 204);
@@ -713,19 +713,19 @@ body {
   padding-left: 12px;
 }
 
-.footer-form__input:required:focus:valid:not(:placeholder-shown) {
+.form-submit-mail__input:required:focus:valid:not(:placeholder-shown) {
   border-style: solid;
   border-width: 2px;
   border-color: var(--decor_color);
   border-radius: 2px;
 }
-.footer-form__input:required:focus:invalid:not(:placeholder-shown) {
+.form-submit-mail__input:required:focus:invalid:not(:placeholder-shown) {
   border-style: solid;
   border-width: 2px;
   border-color: red;
   border-radius: 2px;
 }
-.footer-form__button-submit {
+.form-submit-mail__button-submit {
   font-size: 0.875rem;
   color: rgb(255, 255, 255);
   font-weight: 600;
